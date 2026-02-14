@@ -43,7 +43,7 @@ const galleryData = [
     id: 5,
     image: photo5,
     caption:
-      "If you haven't noticed, I really think sunflower fits you. Your face always shines, not to mention the sweetest smile a girl can have. You always bring me warmth and so resiliant / strong just like a sunflower",
+      "If you haven't noticed, I really think sunflower fits you. Your face always shines, not to mention the sweetest smile a girl can have. You always bring me warmth and so resilient / strong just like a sunflower",
     position: "top",
   },
   {
