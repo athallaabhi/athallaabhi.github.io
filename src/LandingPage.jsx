@@ -17,23 +17,53 @@ gsap.registerPlugin(ScrollTrigger, TextPlugin, MotionPathPlugin);
 
 // Gallery data - EDIT YOUR CAPTIONS HERE
 const galleryData = [
-  { id: 1, image: photo1, caption: "Caption for photo 1", position: "top" },
-  { id: 2, image: photo2, caption: "Caption for photo 2", position: "bottom" },
-  { id: 3, image: photo3, caption: "Caption for photo 3", position: "top" },
-  { id: 4, image: photo4, caption: "Caption for photo 4", position: "bottom" },
-  { id: 5, image: photo5, caption: "Caption for photo 5", position: "top" },
-  { id: 6, image: photo6, caption: "Caption for photo 6", position: "bottom" },
+  {
+    id: 1,
+    image: photo1,
+    caption:
+      "The most amazing partner i could ask for, a pianist, a singer, a chef, a care taker, a best friend, a lover, a soulmate, and so much more. I am so grateful to have you in my life and to be able to call you mine",
+    position: "top",
+  },
+  {
+    id: 2,
+    image: photo2,
+    caption:
+      "I am really glad i didn't choose another uni. Sebenarnya memang udah feeling ada bidadari di RKA 2023 dari sebelum keterima UTBK",
+    position: "bottom",
+  },
+  {
+    id: 3,
+    image: photo3,
+    caption:
+      "I wasn't joking when I said bidadari, your eyes stuns me and your smile always brings peace to my mind",
+    position: "top",
+  },
+  { id: 4, image: photo4, caption: "Ini kamu baddie bat", position: "bottom" },
+  {
+    id: 5,
+    image: photo5,
+    caption:
+      "If you haven't noticed, I really think sunflower fits you. Your face always shines, not to mention the sweetest smile a girl can have. You always bring me warmth and so resiliant / strong just like a sunflower",
+    position: "top",
+  },
+  {
+    id: 6,
+    image: photo6,
+    caption:
+      "I hope I can spend the rest of my life with you always watching my back and supporting me",
+    position: "bottom",
+  },
 ];
 
 // Letter text - WRITE YOUR MESSAGE HERE
-const letterText = `Dear [Name],
+const letterText = `Dear Khairah Michiko Dyah Widjaya,
 
-Write your heartfelt message here. This can be multiple paragraphs.
+Meeting you is one of the best things that ever happened to me. You make me become a better version of myself, you make me want to be a better person, and you make me want to be the best for you. This 19 years of my life, I have never met a partner as amazing as you, you are perfect and i would not change anything about you. 
 
-You have space for approximately 500 words. Express your feelings, share memories, or write whatever is in your heart.
+You are my best friend and the best lover i could ever ask for. In the stwo years of our relationship, my love has never faded, if anything I love you way more than the day you first became mine. That will always be the case, and I will always gombalin kamu sampai umur kita 90 tahun.
 
 Love,
-[Your Name]`;
+The luckiest boy on earth`;
 
 const LandingPage = () => {
   const containerRef = useRef(null);
@@ -1662,7 +1692,7 @@ const LandingPage = () => {
                 className="text-3xl font-bold text-gray-800"
                 style={{ fontFamily: "'Great Vibes', cursive" }}
               >
-                A Letter For You
+                Happy Valentine
               </h2>
               <button
                 onClick={() => setShowLetterModal(false)}
