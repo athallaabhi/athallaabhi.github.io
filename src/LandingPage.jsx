@@ -1680,11 +1680,17 @@ const LandingPage = () => {
       {/* Letter Modal */}
       {showLetterModal && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-[9999]"
+          className="fixed inset-0 bg-black bg-opacity-30 flex items-center justify-center z-[9999]"
+          style={{
+            backdropFilter: "blur(3px)",
+          }}
           onClick={() => setShowLetterModal(false)}
         >
           <div
-            className="bg-white rounded-lg shadow-2xl max-w-2xl w-full max-h-[80vh] overflow-auto m-4 p-8"
+            className="bg-white rounded-lg shadow-2xl max-w-2xl w-full max-h-[80vh] overflow-auto m-4 p-8 relative"
+            style={{
+              zIndex: 10000,
+            }}
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex justify-between items-center mb-6">
